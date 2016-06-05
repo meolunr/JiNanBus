@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="busline_view_row_height">80dp</dimen>
+    <dimen name="busline_view_link_size">3dp</dimen>
+    <dimen name="busline_view_node_text_size">12sp</dimen>
+    <dimen name="busline_view_busid_add_height">15dp</dimen>
+</resources>

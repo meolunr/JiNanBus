@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_text">#333333</color>
+    <color name="busline_view_link_color">#ACB8C2</color>
+    <color name="colorPrimary">#1E8AE8</color>
+    <color name="colorPrimaryDark">#12538B</color>
+    <color name="colorAccent">#126DBC</color>
+    <color name="gray_light">#EEEEEE</color>
+    <color name="gray_black">#525252</color>
+    <color name="text_hint">#757575</color>
+    <color name="search_background">#80000000</color>
+
+</resources>

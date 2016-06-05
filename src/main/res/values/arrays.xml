@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="refresh_speed">
+        <item>10秒</item>
+        <item>12秒</item>
+        <item>14秒</item>
+        <item>16秒</item>
+        <item>18秒</item>
+        <item>20秒</item>
+    </string-array>
+
+    <string-array name="refresh_speed_value">
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+    </string-array>
+
+</resources>

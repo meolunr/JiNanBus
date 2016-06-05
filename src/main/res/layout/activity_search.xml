@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:onClick="flOther">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="3dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground"
+            android:onClick="ibBack"
+            android:src="@drawable/ic_search_back" />
+
+        <EditText
+            android:id="@+id/et_keyword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:digits="0123456789abcdefghijgklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="搜索"
+            android:imeOptions="actionSearch"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/ib_clear"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground"
+            android:onClick="ibClear"
+            android:src="@drawable/ic_search_clear"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/ib_search"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground"
+            android:onClick="ibSearch"
+            android:src="@drawable/ic_search_search" />
+
+    </LinearLayout>
+
+</FrameLayout>

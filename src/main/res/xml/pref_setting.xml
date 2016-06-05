@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="线路地图">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show_bus_id"
+            android:summary="在线路地图内显示自编号"
+            android:title="显示车辆自编号" />
+
+        <ListPreference
+            android:defaultValue="14"
+            android:dialogTitle="刷新速度"
+            android:entries="@array/refresh_speed"
+            android:entryValues="@array/refresh_speed_value"
+            android:key="refresh_speed"
+            android:summary="设置线路地图的刷新速度"
+            android:title="刷新速度" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
